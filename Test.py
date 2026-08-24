@@ -5,7 +5,7 @@
 
 # Lista donde se guardarán los usuarios
 usuarios = []
-a
+
 
 # Mantiene el programa funcionando hasta elegir salir
 while True:
