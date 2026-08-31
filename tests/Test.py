@@ -1,6 +1,6 @@
 # ==========================================
 # SISTEMA DE REGISTRO DE USUARIOS
-# Máximo: 10 usuarios
+# Cantidad Máxima de usuarios: 10 usuarios
 # ==========================================
 
 # Lista donde se guardarán los usuarios
@@ -60,7 +60,7 @@ while True:
 
 
     # ==========================================
-    # 2. CONSULTAR USUARIO
+    # 2. CONSULTAR ALGUN USUARIO
     # ==========================================
     elif opcion == "2":
 
