@@ -16,7 +16,7 @@ def limpiar_pantalla():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 # ==============================================================================
-# AQUI AGREGAMOS LA CLASE ACTUADOR
+#                                  CLASES 
 # ==============================================================================
 class Actuador:
     def __init__(self, nombre: str):
@@ -26,3 +26,27 @@ class Actuador:
         self.rango_operacion_max = 100.0 # Límite máximo de operación (100%)
         self.estado = False              # Estado lógico de encendido: False = OFF, True = ON
         self.punto_operacion = 0.0       # Porcentaje actual de operación
+   def encender(self):
+       #cambie el estado a ON y registra el envnto
+       self.estado = True #ON
+       registrar_evento(f" {self.nombre} ENCENDIDO")
+
+   def apagar(self):
+       #Cambia el estado  a OFF y registra el evento
+       self.estado = False # OFF
+       registrar_eveto(f"{self.nombre }APAGADO")
+
+  def ajustar(self, valor : float): 
+      if self.rango_operacio_min <= valor <= self.rango_operacion_max:
+          self.punto_operacion = valor
+          registrar_evento(f"{self.nombre} Punto de operacion ajustado al {self.punto_operacion}")
+          else:
+            registrar_evento(f"[⚠️ ERROR] {self.nombre} -> Valor {valor}% fuera de rango (0% - 100%).")
+
+    def info(self) -> str:
+        #Retorna una cadena con el estado formateado del actuador
+        estado_str = "ON" if self.estado else "OFF"
+        return f"{self.nombre:<20} | Estado: {estado_str:<3} | Punto Op: {self.punto_operacion:>5.1f}% | Rango: [0.0% - 100.0%]"
+       
+
+
