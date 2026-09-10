@@ -47,6 +47,18 @@ class Actuador:
         #Retorna una cadena con el estado formateado del actuador
         estado_str = "ON" if self.estado else "OFF"
         return f"{self.nombre:<20} | Estado: {estado_str:<3} | Punto Op: {self.punto_operacion:>5.1f}% | Rango: [0.0% - 100.0%]"
+
+
+class Sensor:
+    def __init__(self, nombre: str, variable_fisica: str, rango_min: float, rango_max: float, sensibilidad: float, decimales_medicion: int, unidad: str):
+        # Atributos de especificación técnica del sensor
+        self.nombre = nombre
+        self.variable_fisica = variable_fisica
+        self.rango_min = rango_min
+        self.rango_max = rango_max
+        self.sensibilidad = sensibilidad
+        self.decimales_medicion = decimales_medicion
+        self.unidad = unidad
        
 
 
