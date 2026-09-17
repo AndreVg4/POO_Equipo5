@@ -59,6 +59,11 @@ class Sensor:
         self.sensibilidad = sensibilidad
         self.decimales_medicion = decimales_medicion
         self.unidad = unidad
+
+def leer_valor_actual(self) -> float:
+        """Simula una lectura física, la redondea a la precisión dada y la registra en eventos."""
+        valor_simulado = random.uniform(self.rango_min, self.rango_max)
+        valor_redondeado = round(valor_simulado, self.decimales_medicion)
        
 
 
