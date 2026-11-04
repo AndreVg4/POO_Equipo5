@@ -1,6 +1,6 @@
 #Clase base para representar un nodo de una red IOT.
 #en esta estan los atributos y metodos comunes para todos los dispositivos.
-class NodoIOT:
+class NodoIoT:
   def __init__(self, id_dispositivo: str, ip: str, ubicacion: str): 
     self.id_dispositivo = id:dispositivo
     self.ip= ip
