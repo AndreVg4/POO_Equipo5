@@ -1,9 +1,9 @@
 from nodo_iot import NodoIoT
 #creamos un nodo para preuebas
 nodo = NodoIoT(
-  id.dispositivo="IIE001" 
-  ip="192.168.1.100" 
-  unicacion="salon C-2001"
+  id_dispositivo="IIE001",
+  ip="192.168.1.100",
+  ubicacion="salon C-201"
 )
 #consultamos los atributos iniciales para verlos despues
 print("ID:", nodo.id_dispositivo)
@@ -19,7 +19,7 @@ nodo.conectar()
 nodo.enviar_telemetria()
 
 #comprobamos
-assert nodo.conestado is True
-saaret nodo.id_dispositivo == "IIE001"
+assert nodo.conectado is True
+assert nodo.id_dispositivo == "IIE001"
 
 print("pruebas completas")
