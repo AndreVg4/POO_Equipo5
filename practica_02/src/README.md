@@ -1,5 +1,6 @@
 carpeta para los Script de la clase padre, script de las subclases hijas, y el script del bucle principal interactivo.
 
+clase nodo_iot:
 primera pueba fallo por errores de escrtura y por que los métodos conectar() y enviar_telemetria() quedaron fuera de la clase NodoIoT
 <img width="1205" height="209" alt="image" src="https://github.com/user-attachments/assets/706ed68f-cf0b-4cf3-bd7b-e1087bea74dc" />
  se corrigieon los errores y ahora funciona
