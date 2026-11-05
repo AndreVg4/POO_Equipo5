@@ -1,6 +1,8 @@
 ```mermaid
 classDiagram
     class NodoSensor {
+        + RANGO_MIN: float = -20.0
+        + RANGO_MAX: float = 100.0
         -__limite_alerta : float
         +tipo : str
         +lectura_actual : float
