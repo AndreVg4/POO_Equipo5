@@ -1,0 +1,7 @@
+Implementación de la clase base NodoIoT
+
+Se desarrolló la clase NodoIoT como estructura principal del sistema modular de nodos IoT. Esta clase contiene los atributos generales que comparten los dispositivos de la red: identificador, dirección IP, ubicación y estado de conexión.
+
+Se implementó el método conectar(), encargado de modificar el estado del dispositivo para indicar que se encuentra conectado. Asimismo, se desarrolló el método enviar_telemetria(), que simula el envío de información y verifica previamente el estado de conexión del nodo.
+
+La clase se diseñó para permitir que otras clases hereden sus características y reutilicen sus métodos, evitando la duplicación de código. De esta manera, sirve como base para implementar los nodos sensores y actuadores mediante el mecanismo de herencia de Python.
