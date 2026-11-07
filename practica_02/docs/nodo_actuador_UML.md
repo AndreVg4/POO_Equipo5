@@ -1,5 +1,8 @@
+### Diagrama UML de NodoActuador
+
+```text
 +------------------------------------------+
-|              NodoActuador               |
+|              NodoActuador                |
 +------------------------------------------+
 | - __estado_activo: bool                  |
 | - __potencia_pwm: float                  |
@@ -7,14 +10,12 @@
 | + PWM_MIN: int                           |
 | + PWM_MAX: int                           |
 +------------------------------------------+
-| + __init__(id_dispositivo: str,          |
-|   ip: str, ubicacion: str,               |
-|   tipo: str, potencia_pwm: float = 0)    |
-|                                          |
+| + __init__(id_dispositivo, ip,           |
+|   ubicacion, tipo, potencia_pwm=0): None |
 | + estado_activo: bool                    |
 | + potencia_pwm: float                    |
-| + encender(potencia_pwm: float = 100):   |
-|   None                                   |
+| + encender(potencia_pwm=100): None       |
 | + apagar(): None                         |
 | + enviar_telemetria(): None              |
 +------------------------------------------+
+```
