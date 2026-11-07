@@ -1,4 +1,4 @@
-### Diagrama UML de NodoActuador
+### Diagrama UML de NodoIoT
 
 ```text
 +--------------------------------------+
@@ -9,8 +9,8 @@
 | + ubicacion: str                     |
 | + conectado: bool                    |
 +--------------------------------------+
-| + __init__(id_dispositivo, ip,       |
-|            ubicacion): None          |
+| + __init__(id_dispositivo: str,       |
+|   ip: str, ubicacion: str): None     |
 | + conectar(): None                   |
 | + enviar_telemetria(): None          |
 +--------------------------------------+
