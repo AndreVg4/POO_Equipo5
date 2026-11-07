@@ -1,0 +1,14 @@
+
++--------------------------------------+
+|                NodoIoT               |
++--------------------------------------+
+| + id_dispositivo: str                |
+| + ip: str                            |
+| + ubicacion: str                     |
+| + conectado: bool                    |
++--------------------------------------+
+| + __init__(id_dispositivo, ip,       |
+|            ubicacion): None          |
+| + conectar(): None                   |
+| + enviar_telemetria(): None          |
++--------------------------------------+
