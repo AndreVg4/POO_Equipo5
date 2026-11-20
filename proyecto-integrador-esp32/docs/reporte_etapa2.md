@@ -344,28 +344,13 @@ Externa: 23.56
 
 Estas lecturas demuestran el correcto funcionamiento de los dos sensores identificados mediante direcciones ROM independientes y la diferenciación entre temperatura interna y temperatura ambiente.
 
-**[INSERTAR CAPTURA DEL MONITOR SERIAL]**
+
+![Monitor_serie](../diagrams/Monitor_Seria.png)
+
 
 ---
 
 ## 4.2 Fotografía del Circuito Físico Armado (Garantía de Autoría)
-
-Insertar una fotografía de alta resolución del montaje físico donde se visualicen claramente:
-
-- ESP32 DevKit.
-- Sensor DS18B20 Interno.
-- Sensor DS18B20 Externo.
-- Resistencia Pull-Up de 4.7 kΩ.
-- LED Verde.
-- LED Rojo.
-- Buzzer.
-- Módulo MicroSD.
-
-La fotografía deberá incluir también una hoja escrita a mano con:
-
-- Fecha de la práctica.
-- Matrículas de los integrantes.
-- Número de práctica.
 
 ### Circuito:
 
