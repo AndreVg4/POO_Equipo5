@@ -406,7 +406,7 @@ Todos los casos de prueba fueron ejecutados satisfactoriamente.
 
 ### Caprtura de la terminal:
 
-![Pruebas_Etapa2](../diagrams/Pruebas_Etapa2.png)
+![Pruebas_Etapa2](../diagrams/Prueba_Etapa2.png)
 
 ---
 
