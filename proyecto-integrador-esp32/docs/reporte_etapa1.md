@@ -193,53 +193,7 @@ Adquisición de Temperatura
 
 
 
-```text
 
-+----------------------+
-|   SensorDS18B20      |
-+----------------------+
-| - pinBus             |
-| - temperatura        |
-+----------------------+
-| + begin()            |
-| + leerTemperatura()  |
-+----------------------+
-
-+----------------------+
-| RegistroTemperatura  |
-+----------------------+
-| - limiteMinimo       |
-| - limiteMaximo       |
-+----------------------+
-| + guardarRegistro()  |
-| + verificarRango()   |
-+----------------------+
-
-+----------------------+
-|   GestorAlarmas      |
-+----------------------+
-| - ledVerde           |
-| - ledRojo            |
-| - buzzer             |
-+----------------------+
-| + normal()           |
-| + alarma()           |
-+----------------------+
-
-+----------------------+
-|   CadenaFrioESP32    |
-+----------------------+
-| - sensorInterno      |
-| - sensorExterno      |
-| - registro           |
-| - alarmas            |
-+----------------------+
-| + begin()            |
-| + actualizar()       |
-+----------------------+
-
-
-```
 
 Propuesta inicial de clases:
 
