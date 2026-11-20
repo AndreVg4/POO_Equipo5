@@ -6,7 +6,7 @@ Esta carpeta contiene los diagramas, evidencias visuales y recursos gráficos ut
 
 ## Contenido
 
-### uml_clases_inicial.png
+### UML_Etapa1.png
 
 Diagrama UML correspondiente a la Etapa 1.
 
@@ -21,7 +21,7 @@ Incluye las clases:
 
 ---
 
-### uml_clases_v2.png
+### UML_Etapa2.png
 
 Diagrama UML correspondiente a la Etapa 2.
 
@@ -45,7 +45,7 @@ Clases implementadas:
 
 ---
 
-### esquema_conexion.png
+### Diagrama_Conexiones.png
 
 Esquema de conexión física del hardware.
 
