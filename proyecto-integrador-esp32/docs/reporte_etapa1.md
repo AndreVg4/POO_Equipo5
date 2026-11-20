@@ -7,7 +7,7 @@
 
 - **Número de Práctica:** Proyecto Integrador
 - **Título del Proyecto:** Monitoreo de Cadena de Frío para Productos Farmacéuticos y Perecederos
-- **Fecha de Entrega:** 21/11/2026
+- **Fecha de Entrega:** 16/10/2026
 - **Enlace al Repositorio de GitHub:** https://github.com/AndreVg4/POO_Equipo5
 
 | Nombre Completo del Integrante | Matrícula UV | Usuario de GitHub |
