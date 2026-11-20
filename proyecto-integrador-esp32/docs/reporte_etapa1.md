@@ -187,9 +187,9 @@ Adquisición de Temperatura
 
 
 
-```text
-diagrams/UML_Etapa1.png
-```
+## UML Inicial
+
+![UML Inicial](../diagrams/UML_Etapa1.png)
 
 
 
