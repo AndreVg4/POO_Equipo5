@@ -186,6 +186,13 @@ Adquisición de Temperatura
 # UML Inicial
 
 
+
+```text
+diagrams/UML_Etapa1.png
+```
+
+
+
 ```text
 
 +----------------------+
