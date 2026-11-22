@@ -345,8 +345,10 @@ Externa: 23.56
 Estas lecturas demuestran el correcto funcionamiento de los dos sensores identificados mediante direcciones ROM independientes y la diferenciación entre temperatura interna y temperatura ambiente.
 
 
+
 ![Monitor_serie](../diagrams/Monitor_Serie.png)
 
+(Errores por falla en el modulo mcrisd, se cambiara de moduoo para las siguiente etapa)
 
 ---
 
