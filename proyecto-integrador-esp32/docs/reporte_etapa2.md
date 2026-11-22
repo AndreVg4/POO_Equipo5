@@ -363,7 +363,7 @@ Estas lecturas demuestran el correcto funcionamiento de los dos sensores identif
 **Enlace de Visualización:**
 
 ```text
-[PEGAR AQUÍ EL ENLACE DEL VIDEO]
+https://drive.google.com/drive/folders/1fDfR6xdwayzvqFSVagemJzNCmPqPt8Jg?usp=sharing
 ```
 
 
