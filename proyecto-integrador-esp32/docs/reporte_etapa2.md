@@ -354,7 +354,7 @@ Estas lecturas demuestran el correcto funcionamiento de los dos sensores identif
 
 ### Circuito:
 
-![Circuito_Etapa2](../diagrams/Circuito_Etapa2.png)
+![Circuito_Etapa2](../diagrams/Circuito_Etapa2.jpeg)
 
 ---
 
