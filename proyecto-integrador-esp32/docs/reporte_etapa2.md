@@ -345,7 +345,7 @@ Externa: 23.56
 Estas lecturas demuestran el correcto funcionamiento de los dos sensores identificados mediante direcciones ROM independientes y la diferenciación entre temperatura interna y temperatura ambiente.
 
 
-![Monitor_serie](../diagrams/Monitor_Seria.png)
+![Monitor_serie](../diagrams/Monitor_Serie.png)
 
 
 ---
