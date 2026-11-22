@@ -348,7 +348,7 @@ Estas lecturas demuestran el correcto funcionamiento de los dos sensores identif
 
 ![Monitor_serie](../diagrams/Monitor_Serie.png)
 
-(Errores por falla en el modulo mcrisd, se cambiara de moduoo para las siguiente etapa)
+(Errores por falla en el modulo microSD, se cambiara de moduLo para la siguiente etapa)
 
 ---
 
