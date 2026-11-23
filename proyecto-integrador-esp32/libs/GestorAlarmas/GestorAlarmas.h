@@ -24,6 +24,8 @@ public:
     void normal();
 
     void alarma();
+
+    void ajustarPWM(int valor); //Para el slider en tkinter
 };
 
 #endif
