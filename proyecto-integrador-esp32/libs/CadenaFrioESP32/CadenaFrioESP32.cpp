@@ -36,7 +36,8 @@ alarmas(
     LED_VERDE,
     LED_ROJO,
     BUZZER_PIN
-)
+),
+alarmaForzada(false)
 {
 
 }
@@ -68,6 +69,7 @@ void CadenaFrioESP32::actualizar()
     registro.guardar(linea);
 
     if(
+        alarmaForzada ||
         tInterna < TEMP_MINIMA ||
         tInterna > TEMP_MAXIMA
     )
@@ -94,4 +96,25 @@ void CadenaFrioESP32::actualizar()
     Serial.println(
         tExterna
     );
+}
+
+void CadenaFrioESP32::procesarComando(Srting comando)
+{
+    comando.trim();
+    if (comando == "ALARMA_ON"){
+        alarmaForzada = true;
+        alarmas.alarma();
+        Serial.println("Alarma activda manualmente");
+    }
+    else if (comando == "ALARMA_OFF"){
+        alarmaForzada = false;
+        alarmas.normal();
+        Serial.println("Alarma normalizada");
+    }
+    else if (comando.startsWith("PWM")){
+        int pwmVal = comando.substring(4).toInt();
+        alarmas.ajustarPWM(pwmVal);
+        Serial.print("PWM ajustado a ");
+        Serial.println(pwmVal);
+    }
 }
