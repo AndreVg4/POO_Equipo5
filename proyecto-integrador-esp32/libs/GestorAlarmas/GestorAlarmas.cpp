@@ -43,3 +43,9 @@ void GestorAlarmas::alarma()
     digitalWrite(ledRojo,HIGH);
     digitalWrite(buzzer,HIGH);
 }
+
+void GestorAlarmas::ajustarPWM(int valor) //Nuevo método para regular la potencia de buzzer
+{
+    valor=constrain(valor, 0, 255);
+    analogWrite(buzzer, valor)
+}
