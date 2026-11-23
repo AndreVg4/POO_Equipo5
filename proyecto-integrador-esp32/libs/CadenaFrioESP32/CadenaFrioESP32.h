@@ -17,6 +17,8 @@ private:
 
     GestorAlarmas alarmas;
 
+    bool alarmaForzada;
+
 public:
 
     CadenaFrioESP32();
@@ -24,6 +26,8 @@ public:
     void begin();
 
     void actualizar();
+
+    void procesarComando(String comando);
 };
 
 #endif
