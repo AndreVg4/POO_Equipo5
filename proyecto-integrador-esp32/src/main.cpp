@@ -24,4 +24,10 @@ void loop()
 
         ultimo = millis();
     }
+    
+    if (Serial.available() > 0){
+        String cmd = Serial.readStringUntil('\n');
+        sistema.procesarComando(cmd);
+    }
+    
 }
