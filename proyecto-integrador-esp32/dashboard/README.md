@@ -1,0 +1,3 @@
+Ejecutar: 
+
+pip install pyserial
