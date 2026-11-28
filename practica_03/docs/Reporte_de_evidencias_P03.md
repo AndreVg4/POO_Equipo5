@@ -174,7 +174,7 @@ De esta manera se garantiza la validez de la información utilizada por cada obj
 ---
 
 ## 4.2 Fotografía del Circuito Físico Armado
-![alt text](diagrams/circuito.jpg)
+![alt text](diagrams/circuito.jpeg)
 
 ---
 
