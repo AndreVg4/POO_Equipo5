@@ -169,43 +169,12 @@ De esta manera se garantiza la validez de la información utilizada por cada obj
 # Sección 4: Evidencias de Funcionamiento (Validación Dual)
 
 ## 4.1 Captura de Pantalla de la Terminal / Monitor Serial
-
-**[INSERTAR AQUÍ CAPTURA DEL MONITOR SERIAL]**
-
-Ejemplo de salida observada:
-
-```text
-RED IOT INICIADA
-
-SENSOR_ADC: 1050
-NORMAL
-
-----------------
-
-SENSOR_ADC: 3250
-ALERTA
-
-----------------
-```
+![alt text](diagrams/terminal.png)
 
 ---
 
 ## 4.2 Fotografía del Circuito Físico Armado
-
-**[INSERTAR AQUÍ FOTOGRAFÍA DEL CIRCUITO FÍSICO]**
-
-La imagen debe mostrar:
-
-- ESP32.
-- Protoboard.
-- Potenciómetro conectado al GPIO34.
-- LED Verde conectado al GPIO18.
-- LED Rojo conectado al GPIO19.
-- Buzzer conectado al GPIO25.
-- Hoja escrita a mano con:
-  - Fecha.
-  - Número de práctica.
-  - Matrículas de los integrantes.
+![alt text](diagrams/circuito.png)
 
 ---
 
