@@ -211,7 +211,7 @@ La imagen debe mostrar:
 
 ## 4.3 Diagrama de Conexiones del Circuito
 
-![alt text](Esquema_circuito.png)
+![alt text](diagrams/Esquema_circuito.png)
 
 ### Conexiones utilizadas
 
