@@ -180,7 +180,7 @@ De esta manera se garantiza la validez de la información utilizada por cada obj
 
 ## 4.3 Diagrama de Conexiones del Circuito
 
-![alt text](diagrams/Esquema_circuito.png)
+![alt text](diagrams/Esquema_circuito.jpeg)
 
 ### Conexiones utilizadas
 
